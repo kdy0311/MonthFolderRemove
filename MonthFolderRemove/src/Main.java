@@ -20,12 +20,12 @@ import java.util.logging.Logger;
 public class Main {
 	
 	private static final Logger LOG = Logger.getGlobal();
-    private static final String BD_URL = "192.168.0.4";					// 사업개발실 URL
-    private static final String BD_USER = "ehdud0311";					// 사업개발실 계정
-    private static final int BD_PORT = 2121;							// 사업개발실 port
-    private static final String BD_PW = "itman1234!@";					// 사업개발실 비밀번호
-    private static final String BD_NG_PATH = "/NASHDD/12_EMS2_PMS/수집데이터/농공산단";	// 사업개발실 디렉토리(서버)
-    private static final String BD_HI_PATH = "/NASHDD/12_EMS2_PMS/수집데이터/HIOX";		// 사업개발실 디렉토리(서버)
+    private static final String BD_URL = "URL";					// 사업개발실 URL
+    private static final String BD_USER = "ID";					// 사업개발실 계정
+    private static final int BD_PORT = 2121;					// 사업개발실 port
+    private static final String BD_PW = "PW";					// 사업개발실 비밀번호
+    private static final String BD_NG_PATH = "DIRECTORY";		// 사업개발실 디렉토리(서버)
+    private static final String BD_HI_PATH = "DIRECTORY";		// 사업개발실 디렉토리(서버)
     
     public static void main(String[] args) throws SecurityException, IOException {
     	// 로그 설정 start
